@@ -1,0 +1,10 @@
+rss(hi○○mi とか)を独自にcronして入手し、変更分をpostする。
+スラッシュコマンド(/command)を実装し、start,stop,help,randomなどを実装。
+randomは、今までpostした内容をローカルに保存しておき、ランダムにpostする。
+ローカルの保存は、mysqlで行う。
+TODO:npm install mysql
+TODO:DBの作成
+これらはlinux(oraclelinux.buntin.tech)で行う。
+
+更新履歴
+2022/10/08 初期状態 (https://discordjs.guide/creating-your-bot/#creating-the-main-file)ここまで
